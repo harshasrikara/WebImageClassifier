@@ -1,0 +1,14 @@
+{
+  "name": "testfolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.2.9"
+  }
+}
