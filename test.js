@@ -14,9 +14,9 @@ function submit() {
     model.classify(img).then(predictions => {
       console.log('Predictions: ');
       console.log(predictions); 
-      output_result.innerHTML = "prediction: " + predictions[0].className + " score: " + predictions[0].probability;
-      output_result_two.innerHTML = "prediction: " + predictions[1].className + " score: "+ predictions[1].probability;
-      output_result_three.innerHTML = "prediction: " + predictions[2].className + " score: " + predictions[2].probability;
+      output_result.innerHTML = "1. prediction: " + predictions[0].className + " score: " + predictions[0].probability;
+      output_result_two.innerHTML = "2. prediction: " + predictions[1].className + " score: "+ predictions[1].probability;
+      output_result_three.innerHTML = "3. prediction: " + predictions[2].className + " score: " + predictions[2].probability;
     })
 })
 }
