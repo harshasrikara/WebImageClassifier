@@ -14,3 +14,4 @@ Uses tensorflow.js to identify what is present in an image.
 ### Coming up soon
 
 Revamped design and user interface
+Comparison of Google Cloud Vision to Tensorflow.js
